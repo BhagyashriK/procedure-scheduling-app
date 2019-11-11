@@ -31,7 +31,8 @@ Note: `yarn start` to run application on client side
 
 **Assumptions:**
 
-- Using mocked data for patients, doctors and rooms .
+- Using mocked data for patients.
+- Kept static data for doctors and rooms, we can keep it in backend and integrate them in app.
 - Given search by patient name functionality
 - Data modelling can be enhanced. Assumed API returning expected result. Based on API response format, UI can consume response.
 - Form implementation is basic and can be extended to complex types/validations using libraries like formik.
