@@ -33,7 +33,10 @@ const Content: React.FC<{
   );
 };
 
-// Table accepts header, content data and returns genetated table
+/**
+ *Table accepts header, content data and returns genetated table
+ */
+
 const Table: React.FC<{
   header?: Array<any>;
   content?: Array<any>;

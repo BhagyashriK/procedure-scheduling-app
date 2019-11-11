@@ -2,6 +2,13 @@ import React from "react";
 
 import { FormGroup, Label, Select, Mandatory } from "../../../styles/form";
 
+/**
+ * Room component
+ * name: room name
+ * changeCallback: callback for name change
+ * We can integrate rooms list API, for now I have hard coded it
+ */
+
 const Room: React.FC<{ name: any; changeCallback: any }> = ({
   name,
   changeCallback

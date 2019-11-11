@@ -1,16 +1,19 @@
 import styled from "../../../utilities/styled";
 
 export const StyledModal = styled.div`
-  width: 60%;
+  width: 90%;
   top: 50%;
   left: 50%;
   position: fixed;
   z-index: 2;
-  /* overflow: hidden; */
   padding: 54px 15px 77px 15px;
   transform: translateX(-50%) translateY(-50%);
   background: ${props => props.theme.MODAL_BG};
   border-radius: ${props => props.theme.BASE_BORDER_RADIUS};
+
+  @media (min-width: 768px) {
+    width: 60%;
+  }
 `;
 
 export const ModalHeader = styled.div`

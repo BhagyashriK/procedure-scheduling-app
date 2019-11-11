@@ -2,9 +2,10 @@ import React from "react";
 
 import { Wrapper } from "./message.style";
 
-/*** Message component
+/** Message component
  * type: message type, can be info, error
  */
+
 const Message: React.FC<{ message?: string; type?: string }> = ({
   message,
   type = "info"

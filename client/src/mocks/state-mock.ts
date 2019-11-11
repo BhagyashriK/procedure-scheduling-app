@@ -1,3 +1,7 @@
+/**
+ * mocked redux state
+ */
+
 const getMockedState = () => ({
   patients: {
     list: [

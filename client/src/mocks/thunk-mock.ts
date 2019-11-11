@@ -1,3 +1,7 @@
+/**
+ * mocked thunk with store
+ */
+
 interface Store {
   dispatch?: any;
   getState?: any;

@@ -15,7 +15,7 @@ export const Wrapper = styled.header`
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 15px;
     /* Small devices (landscape phonesthe, 576px and up) */
     @media (min-width: 576px) {
       max-width: 540px;

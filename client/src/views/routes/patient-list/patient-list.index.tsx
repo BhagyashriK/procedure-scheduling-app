@@ -80,7 +80,7 @@ const PatientList: React.FC<{
                 placeholder="Search by patient name"
                 onChange={searchByPatientName}
               />
-              <Button onClick={addNewPatient}>Add New Patient</Button>
+              <Button onClick={addNewPatient}>Add Patient</Button>
             </FilterWrapper>
             {/* Show loader if request is in progress */}
             {isLoading ? (
@@ -100,9 +100,7 @@ const PatientList: React.FC<{
         )}
       </Container>
       {/* Route configuration for add patient modal */}
-      <Route path="/patients/add">
-        <AddPatient></AddPatient>
-      </Route>
+      <Route path="/patients/add" component={AddPatient} />
     </>
   );
 };

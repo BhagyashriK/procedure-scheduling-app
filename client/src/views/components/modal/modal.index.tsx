@@ -10,6 +10,14 @@ import {
   Close
 } from "./modal.style";
 
+/**
+ * Modal component is Portal
+ * title: modal title
+ * closeHandler: callback on click of close button
+ * footer: modal footer content
+ * children: modal content
+ */
+
 const modalRoot: HTMLElement = document.getElementById("modal-root")!;
 
 type Props = {

@@ -14,12 +14,8 @@ const App: React.FC<{ props?: object }> = props => {
       <GlobalStyles></GlobalStyles>
       {/* Configure routes for application     */}
       <Switch>
-        <Route exact path="/patient">
-          <PatientDetails></PatientDetails>
-        </Route>
-        <Route path="/">
-          <PatientList></PatientList>
-        </Route>
+        <Route exact path="/patient" component={PatientDetails} />
+        <Route path="/" component={PatientList} />
         {/* If route is not matching render 404 page */}
         <Route
           render={() => (

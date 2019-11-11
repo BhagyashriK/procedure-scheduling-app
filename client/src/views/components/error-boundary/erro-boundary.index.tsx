@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Message from "../message/message.index";
 
+/**
+ * Catchs JS errors and shows fallback message
+ */
+
 class ErrorBoundary extends Component {
   state = { error: null, info: null };
 

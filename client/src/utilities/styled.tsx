@@ -1,3 +1,7 @@
+/**
+ * typescript configuration for styled components
+ */
+
 import * as styledComponents from "styled-components";
 import ThemeType from "../styles/theme";
 
